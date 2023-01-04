@@ -16,17 +16,27 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    padding: 1rem 2rem;
+    padding: .6rem 1rem;
     display: flex;
     justify-content: space-between;
     background-color: transparent;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     z-index: 100;
+    transition: all .3s ease-in-out;
+}
+
+.nav.scrolled {
+    background-color: white;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.nav.scrolled .nav-link {
+    color: black;
 }
 
 .nav-links {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     align-items: center;
 }
 
