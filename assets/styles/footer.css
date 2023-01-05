@@ -1,5 +1,5 @@
 .footer {
-    background-color: rgb(254, 135, 155);
+    background-color: rgb(254, 101, 127);
     padding: 3rem 0;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .footer-icon:hover {
-    background-color: rgb(253, 72, 102);
+    background-color: rgb(255, 53, 86);
 }
 
 .footer-text {
@@ -55,7 +55,7 @@
 }
 
 .footer-text a:hover {
-    color: rgb(253, 72, 102);
+    color: rgb(255, 53, 86);
 }
 
 @media only screen and (max-width: 800px) {

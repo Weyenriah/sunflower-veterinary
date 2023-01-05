@@ -28,7 +28,7 @@
 }
 
 .nav.scrolled .logo-text {
-    color: rgb(254, 135, 155);
+    color: rgb(254, 101, 127);
 }
 
 .nav-links {
@@ -59,7 +59,7 @@
 }
 
 .contact-btn.active {
-    background-color: rgb(254, 135, 155);
+    background-color: rgb(254, 101, 127);
     color: white;
 }
 
@@ -71,14 +71,14 @@
     border-radius: 30px;
     padding: .5rem 1rem;
     text-decoration: none;
-    border: 2px solid rgb(254, 135, 155);
-    color: rgb(254, 135, 155);
+    border: 2px solid rgb(254, 101, 127);
+    color: rgb(254, 101, 127);
     transition: all .3s ease-in-out;
     margin-left: 2rem;
 }
 
 .nav-button:hover {
-    background-color: rgb(254, 135, 155);
+    background-color: rgb(254, 101, 127);
     color: white;
 }
 
@@ -158,7 +158,7 @@
 
     .close {
         font-size: 1.2rem;
-        color: rgb(254, 135, 155);
+        color: rgb(254, 101, 127);
         cursor: pointer;
         align-self: flex-end;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

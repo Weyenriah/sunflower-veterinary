@@ -62,34 +62,34 @@ hr {
 }
 
 .button--pink-bkg {
-    background-color: rgb(254, 135, 155);
+    background-color: rgb(254, 101, 127);
     color: white;
     transition: all .3s ease-in-out;
 }
 
 .button--pink-bkg:hover {
-    background-color: rgb(255, 95, 122);
+    background-color: rgb(226, 60, 88);
 }
 
 .button--pink {
-    border: 2px solid rgb(254, 135, 155);
-    color: rgb(254, 135, 155);
+    border: 2px solid rgb(254, 101, 127);
+    color: rgb(254, 101, 127);
     transition: all .3s ease-in-out;
 }
 
 .button--pink:hover {
-    background-color: rgb(254, 135, 155);
+    background-color: rgb(254, 101, 127);
     color: white;
 }
 
 .button--dark-pink {
-    background-color: rgb(255, 95, 122);
+    background-color: rgb(255, 53, 86);
     color: white;
     transition: all .3s ease-in-out;
 }
 
 .button--dark-pink:hover {
-    background-color: rgb(253, 72, 102);
+    background-color: rgb(213, 47, 75);
     color: white;
 }
 
