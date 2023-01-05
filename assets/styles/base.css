@@ -1,0 +1,86 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    position: relative;
+}
+
+main {
+    position: relative;
+    top: -84px;
+}
+
+.section {
+    padding: 3rem 4rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+hr {
+    width: 20%;
+    border: 3px solid #fe879b;
+    border-radius: 10px;
+}
+
+.mt3 {
+    margin-top: 3rem;
+}
+
+.turquoise-text {
+    color: #1effff;
+}
+
+.pink-text {
+    color: #fe879b;
+}
+
+.button {
+    display: block;
+    width: fit-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.button--pink-bkg {
+    background-color: rgb(254, 135, 155);
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.button--pink-bkg:hover {
+    background-color: rgb(255, 95, 122);
+}
+
+.button--pink {
+    border: 2px solid rgb(254, 135, 155);
+    color: rgb(254, 135, 155);
+    transition: all .3s ease-in-out;
+}
+
+.button--pink:hover {
+    background-color: rgb(254, 135, 155);
+    color: white;
+}
+
+.button--dark-pink {
+    background-color: rgb(255, 95, 122);
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.button--dark-pink:hover {
+    background-color: rgb(253, 72, 102);
+    color: white;
+}
