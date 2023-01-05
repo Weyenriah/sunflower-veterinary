@@ -30,3 +30,28 @@ function addActiveClass() {
     contactBtn.classList.toggle('active', window.scrollY > offersHeight + specHeight + heroHeight - generalOffset);
 }
 
+
+// When page is loaded
+window.onload = function() {
+    // Add event listener to the menu button
+    const menuBtn = document.querySelector('.open');
+    menuBtn.addEventListener('click', toggleMenu);
+
+    // Add event listener to the close button
+    const closeBtn = document.querySelector('.close');
+    closeBtn.addEventListener('click', toggleMenu);
+}
+
+// Toggle the menu when the menu button is clicked
+function toggleMenu() {
+    const menu = document.querySelector('.nav--mobile');
+    menu.classList.toggle('open');
+
+    // Stop scroll behaviour on nav-link click
+    const navLinks = document.querySelectorAll('.nav-link');
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            menu.classList.remove('open');
+        });
+    });
+}

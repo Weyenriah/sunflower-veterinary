@@ -1,27 +1,30 @@
-.our-specialities {
-    padding-top: 4rem;
-    padding-bottom: 6rem;
-}
-
 .our-specialities a:hover .speciality-image:before {
     background-color: rgba(30, 255, 255, 0.2);
 }
 
-.specialities {
+.our-specialities {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.specialities {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+    width: fit-content;
 }
 
 .speciality {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
     border-radius: 45%;
     transition: all .3s ease-in-out;
     position: relative;
     color: white;
+    height: 100%;
 }
 
 .speciality-link {
@@ -33,8 +36,7 @@
 }
 
 .speciality-image {
-    height: 290px;
-    width: 290px;
+    height: 100%;
     border-radius: 10px;
     overflow: hidden;
     position: relative;
@@ -60,4 +62,10 @@
 .speciality h3 {
     position: absolute;
     bottom: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .specialities {
+        grid-template-columns: 1fr;
+    }
 }
