@@ -42,4 +42,5 @@ form button {
     align-self: flex-end;
     margin-top: 1rem;
     min-width: 40%;
+    cursor: pointer;
 }
