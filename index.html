@@ -9,7 +9,10 @@
 
     <body>
         <nav class="nav">
-            <img src="./svgs/logo.svg" class="logo" alt="Sunflower Veterinary Logo">
+            <div class="logo-container">
+                <img src="./svgs/logo.svg" class="logo" alt="Sunflower Veterinary Logo">
+                <p class="logo-text">Sunflower veterinary</p>
+            </div>
 
             <div class="nav-links">
                 <a class="nav-link" href="#top">Home</a>
@@ -43,7 +46,7 @@
                 <h2>Our <span class="pink-text">specialities</span></h2>
 
                 <div class="specialities">
-                    <a class="speciality-link" href="#"aria-label="Read more about our services toward dogs.">
+                    <a class="speciality-link" href="#" aria-label="Read more about our services toward dogs.">
                         <section class="speciality">
                             <div class="speciality-image">
                                 <img src="./images/golden.jpg" height="200" alt=" ">
@@ -126,8 +129,20 @@
                 </section>
             </article>
 
-            <!-- TODO: Contact -->
-            <!-- 4h -->
+            <hr/>
+
+            <article class="contact">
+                <section class="contact-form" id="contact">
+                    <h2>Contact us!</h2>
+
+                    <form>
+                        <input type="text" placeholder="Your name" aria-label="Write your name here."/>
+                        <input type="text" placeholder="Subject (ex. Regular checkup)" aria-label="Write why you contact us"/>
+                        <input type="text" placeholder="Type of animal it concerns" aria-label="Write what type of animal this concerns."/>
+                        <textarea rows="4" aria-label="Write other neccessary information here." placeholder="Other neccessary information."></textarea>
+                        <button class="button button--pink-bkg" type="submit">Send</button>
+                    </form>
+            </article>
         </main>
 
         <footer class="footer">
