@@ -22,10 +22,10 @@ function addActiveClass() {
     const generalOffset = 100;
 
     homeLink.classList.toggle('active', window.scrollY < heroHeight - generalOffset);
-    // If the user has scrolled past the hero section, add the active class to the specLink
-    specLink.classList.toggle('active', window.scrollY > heroHeight - generalOffset && window.scrollY < specHeight + heroHeight - generalOffset);
     // If the user has scrolled past the spec section, add the active class to the offersLink
-    offersLink.classList.toggle('active', window.scrollY > specHeight + heroHeight - generalOffset && window.scrollY < offers.offsetHeight + specHeight + heroHeight - generalOffset);
+    offersLink.classList.toggle('active', window.scrollY > heroHeight - generalOffset && window.scrollY < offersHeight + heroHeight - generalOffset);
+    // If the user has scrolled past the hero section, add the active class to the specLink
+    specLink.classList.toggle('active', window.scrollY > offersHeight + heroHeight - generalOffset && window.scrollY < offersHeight + specHeight + heroHeight - generalOffset);
     // If the user has scrolled past the offers section, add the active class to the contactBtn
     contactBtn.classList.toggle('active', window.scrollY > offersHeight + specHeight + heroHeight - generalOffset);
 }

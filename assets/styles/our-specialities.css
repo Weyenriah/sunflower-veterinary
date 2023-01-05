@@ -1,7 +1,3 @@
-.our-specialities a:hover .speciality-image:before {
-    background-color: rgba(30, 255, 255, 0.2);
-}
-
 .our-specialities {
     display: flex;
     flex-direction: column;
@@ -25,11 +21,7 @@
     position: relative;
     color: white;
     height: 100%;
-}
-
-.speciality-link {
     text-decoration: none;
-    color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
     font-size: 1.2rem;
