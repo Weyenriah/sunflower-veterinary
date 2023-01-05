@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --main-pink: #fd5370;
+    --dark-pink: #dd3c56;
+    --darker-pink: #c82641;
+    --main-turquoise: #1effff;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -33,7 +40,7 @@ h2 {
 
 hr {
     width: 20%;
-    border: 3px solid #fe879b;
+    border: 3px solid var(--main-pink);
     border-radius: 10px;
 }
 
@@ -46,7 +53,7 @@ hr {
 }
 
 .pink-text {
-    color: #fe879b;
+    color: var(--main-pink);
 }
 
 .button {
@@ -62,34 +69,34 @@ hr {
 }
 
 .button--pink-bkg {
-    background-color: rgb(254, 101, 127);
+    background-color: var(--main-pink);
     color: white;
     transition: all .3s ease-in-out;
 }
 
 .button--pink-bkg:hover {
-    background-color: rgb(226, 60, 88);
+    background-color: var(--dark-pink);
 }
 
 .button--pink {
-    border: 2px solid rgb(254, 101, 127);
-    color: rgb(254, 101, 127);
+    border: 2px solid var(--main-pink);
+    color: var(--main-pink);
     transition: all .3s ease-in-out;
 }
 
 .button--pink:hover {
-    background-color: rgb(254, 101, 127);
+    background-color: var(--main-pink);
     color: white;
 }
 
 .button--dark-pink {
-    background-color: rgb(255, 53, 86);
+    background-color: var(--dark-pink);
     color: white;
     transition: all .3s ease-in-out;
 }
 
 .button--dark-pink:hover {
-    background-color: rgb(213, 47, 75);
+    background-color: var(--darker-pink);
     color: white;
 }
 

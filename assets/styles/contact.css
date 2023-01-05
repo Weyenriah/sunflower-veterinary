@@ -16,7 +16,7 @@ input {
 }
 
 input:focus-visible {
-    outline: 1px solid rgb(254, 101, 127);
+    outline: 1px solid var(--main-pink);
 }
 
 textarea {
@@ -31,7 +31,7 @@ textarea {
 }
 
 textarea:focus-visible {
-    outline: 1px solid rgb(254, 101, 127);
+    outline: 1px solid var(--main-pink);
 }
 
 form button {
